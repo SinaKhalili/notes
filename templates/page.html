@@ -1,0 +1,36 @@
+{% extends "_base.html" %}
+
+{% block body %}
+
+<div class="item">
+  <div class="jello-horizontal">
+    <picture>
+      <source class="shadow-pop-bl" srcset="/static/img/face-top-min.webp" type="image/webp">
+      <img class="shadow-pop-bl" src="/static/img/face-top-min.png" alt="picture of sin"/>
+    </picture>
+  </div>
+  <h2>Sina's PKM</h2>
+  <nav>
+      <a href="/"> 🏚 Home</a>
+      <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+  </nav>
+</div>
+
+<div class="main">
+  <article>
+    <h1>{{doc.title}}</h1>
+    <div>{{doc.content}}</div>
+  </article>
+</div>
+
+<div class="item right-bar">
+  <h2>Pages that link here:</h2>
+    {% for link in doc.meta.backlinks %}
+        <p><a class="wikilink" href="{{ to_url(link.output_path) }}">{{link.title}}</a><br>{{link.summary}}</p>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>transclude | Mind excursions</title>
+  <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
+  <link rel="stylesheet" href="/static/styles/main.css">
+
+</head>
+<body>
+
+
+<div class="item">
+  <div class="jello-horizontal">
+    <picture>
+      <source class="shadow-pop-bl" srcset="/static/img/face-top-min.webp" type="image/webp">
+      <img class="shadow-pop-bl" src="/static/img/face-top-min.png" alt="picture of sin"/>
+    </picture>
+  </div>
+  <h2>Sina's PKM</h2>
+  <nav>
+      <a href="/"> 🏚 Home</a>
+      <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+  </nav>
+</div>
+
+<div class="main">
+  <article>
+    <h1>transclude</h1>
+    <div><p>Hello Numenera! Link to other notes, <a href="http://localhost:8000/example-note/" class="wikilink">Example Note</a>, to create backlinks.</p>
+<p>If you include a link on a separate line, it will be "transcluded" (its content will be copied into this note):</p>
+<aside class="transclude">
+  <a class="transclude-link" href="http://localhost:8000/example-note/">
+    <h1 class="transclude-title">Example Note</h1>
+    <div class="transclude-summary">Example note
+This is a simple GODDAM example note, DAMMIT</div>
+  </a>
+</aside>
+
+<p>Here's a <a href="http://localhost:8000/page-with-image/" class="wikilink">page with image</a></p></div>
+  </article>
+</div>
+
+<div class="item right-bar">
+  <h2>Pages that link here:</h2>
+    
+        <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps a mafficking good time</p>
+    
+        <p><a class="wikilink" href="/example-note/">Example Note</a><br>Example note
+This is a simple GODDAM example note, DAMMIT</p>
+    
+</div>
+
+
+
+
+</body>
+<script src="/static/scripts/main.js"></script>
+</html>

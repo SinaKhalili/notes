@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>README | Mind excursions</title>
+  <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
+  <link rel="stylesheet" href="/static/styles/main.css">
+
+</head>
+<body>
+
+
+<div class="item">
+  <div class="jello-horizontal">
+    <picture>
+      <source class="shadow-pop-bl" srcset="/static/img/face-top-min.webp" type="image/webp">
+      <img class="shadow-pop-bl" src="/static/img/face-top-min.png" alt="picture of sin"/>
+    </picture>
+  </div>
+  <h2>Sina's PKM</h2>
+  <nav>
+      <a href="/"> 🏚 Home</a>
+      <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+  </nav>
+</div>
+
+<div class="main">
+  <article>
+    <h1>README</h1>
+    <div><h1>Lettersmith</h1>
+<p>A set of tools for static site generation. It comes with a static site generator bundled in. You can also use it as a library to build your own custom static site generator.</p>
+<p>I built it for myself, because I found other solutions to be pretty baroque and difficult to customize. Right now, it's a simple set of fairly stable tools for personal use. I might package it up later.</p>
+<h2>Installing</h2>
+<p>Lettersmith requires Python 3.6+, and a version of pip compatible with Python 3.</p>
+<pre class="highlight"><code class="language-bash">git clone https://github.com/gordonbrander/lettersmith_py
+cd lettersmith_py
+pip3 install -e .
+</code></pre>
+
+<h2>lettersmith_scaffold</h2>
+<p>You can easily scaffold a site using <code>lettersmith_scaffold</code>.</p>
+<pre class="highlight"><code class="language-bash">lettersmith_scaffold ./blog --type blog
+</code></pre>
+
+<p>This will stub out a directory structure and a build script for a typical blogging setup. You can customize the build script from there.</p>
+<h2>What it does</h2>
+<p>Lettersmith comes bundled with a static site generator, but it's really just a library of tools for transforming text. You can use these tools to create your own custom static site generators, build tools, project scaffolders, ebook generators, or wikis — whatever you like.</p>
+<p>Lettersmith loads text files as Python namedtuples, so a markdown file like this:</p>
+<pre class="highlight"><code class="language-markdown">---
+title: &quot;My post&quot;
+created: 2018-01-17
+---
+
+Some content
+</code></pre>
+
+<p>Becomes this:</p>
+<pre class="highlight"><code class="language-python">Doc(
+  id_path='path/to/post.md',
+  output_path='path/to/post.md',
+  input_path='path/to/post.md',
+  created=datetime.datetime(2018, 1, 17, 0, 0),
+  modified=datetime.datetime(2018, 1, 17, 0, 0),
+  title='My post',
+  content='Some content',
+  meta={
+    &quot;title&quot;: &quot;My post&quot;,
+    &quot;date&quot;: &quot;2018-01-17&quot;
+  },
+  template=&quot;&quot;
+)
+</code></pre>
+
+<h2>Plugins</h2>
+<p>Plugins are just functions that transform doc namedtuples.</p>
+<p>To transform many files, you can load them into an iterable, then use list comprehensions, generator expressions, and map, filter, reduce:</p>
+<pre class="highlight"><code class="language-python"># Get all markdown docs under source/
+posts = docs.find(&quot;posts/*.md&quot;)
+# Transform them with your function.
+posts = my_plugin(posts)
+</code></pre>
+
+<p>To write a plugin, all you need to do is define a generator function that takes an iterator of docs and yields transformed docs.</p>
+<pre class="highlight"><code class="language-python">def my_plugin(docs)
+    for doc in docs:
+        yield do_something(doc)
+</code></pre>
+
+<p>You can pipe docs through many transforming functions using <code>pipe</code>.</p>
+<pre class="highlight"><code class="language-python">posts = pipe(
+  docs.find(&quot;source/*.md&quot;),
+  markdown.content,
+  my_plugin,
+  my_other_plugin
+)
+</code></pre>
+
+<p>Which is equivalent to:</p>
+<pre class="highlight"><code class="language-python">posts = my_other_plugin(my_plugin(markdown.content(docs.find(&quot;source/*.md&quot;))))
+</code></pre>
+
+<p>When you're done transforming things, you can pass the iterable to <code>write</code>, which takes care of writing out the files to an output directory.</p>
+<pre class="highlight"><code class="language-python">write(posts, directory=&quot;public&quot;)
+</code></pre>
+
+<p>That's it!</p>
+<p>Check out <a href="http://localhost:8000/lettersmith/package_data/scaffold/blog/build.py">blog/build.py</a> for an example of a build script that uses some of the built-in plugins to create a typical blogging setup.</p>
+<p>Lettersmith comes with a swiss army knife of helpful tools for things like Markdown, templates, drafts, tags, wikilinks, and more — and if you see something missing it's easy to write your own functions.</p></div>
+  </article>
+</div>
+
+<div class="item right-bar">
+  <h2>Pages that link here:</h2>
+    
+</div>
+
+
+
+
+</body>
+<script src="/static/scripts/main.js"></script>
+</html>
