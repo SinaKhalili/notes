@@ -8,4 +8,4 @@ class Config:
 
 # Update each URL to your local and deploy URLs
 development = Config('http://localhost:8000')
-deploy = Config('https://deployurlexample.com')
+deploy = Config('https://notes.sinakhalili.com')
