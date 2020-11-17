@@ -249,6 +249,10 @@ a:hover {
   filter: invert(0.3);
 }
 
+a[href*="notes.sinakhalili.com"] {
+  content: "";
+}
+
 /* Here's the link styling, taken from: https://github.com/gwern/gwern.net/blob/master/css/links.css */
 /* You should probably go there to steal a style sheet instead of here */
 
