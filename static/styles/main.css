@@ -4,6 +4,7 @@ html {
   --colour-headings: #0077ff;
   --colour-text: #333333;
   --colour-anchor: #ef007c;
+  --anchor-external: #cd331f;
   --anchor-filter: grayscale(1);
 }
 
@@ -13,6 +14,7 @@ html[data-theme="dark"] {
   --colour-headings: rgb(252, 246, 1, 0.7);
   --colour-text: #b5b5b5;
   --colour-anchor: #e46ec9;
+  --anchor-external: rgb(201, 108, 244);
   --anchor-filter: invert(1) sepia(1) brightness(3);
 }
 
@@ -91,7 +93,7 @@ h3 {
 }
 
 a {
-  color: var(--colour-anchor);
+  color: var(--anchor-external);
   text-decoration: none;
 }
 
@@ -248,9 +250,16 @@ a[href*="https://"]::after
 a:hover {
   filter: invert(0.3);
 }
-
-a[href*="notes.sinakhalili.com"] {
+a[href*="notes.sinakhalili.com"]::after {
   content: "";
+}
+
+/* LOL. Great dev/prod split bro */
+a[href*="localhost"],
+a[href^="/"],
+a[href^="#"],
+a[href*="notes.sinakhalili.com"] {
+  color: var(--colour-anchor);
 }
 
 /* Here's the link styling, taken from: https://github.com/gwern/gwern.net/blob/master/css/links.css */

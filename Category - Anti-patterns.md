@@ -1,0 +1,12 @@
+Like [[Category - Patterns | patterns]], [anti-patterns](https://en.wikipedia.org/wiki/Anti-pattern) are common solutions or approaches to a problem, but **unlike**  patterns, anti-patterns make the problem **worse** or even create new problems. 
+
+If curious, [[difference between anti-pattern and bad habit]].
+
+I originally encountered this as a programming term, where I was linked (repeatedly 😅) to this great [python anti-patterns](https://docs.quantifiedcode.com/python-anti-patterns/) website.
+
+But now, I think of a lot of things in terms of antipatterns.
+
+Studying anti-patterns is almost as fun as studying regular patterns. I've even invented my own anti-patterns that I see in the wild.
+
+### Social
+[[clown to clown conversation]] : Two people trying to impress eachother with shallow knowledge of a field.

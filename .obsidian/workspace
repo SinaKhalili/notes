@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "ac4e65b9ef6d2c37",
+    "type": "split",
+    "children": [
+      {
+        "id": "2000d88bb352d684",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Example Note.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87dac635401a250e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfb5cc49a499a4ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb13120b66d2db85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8dd461aed15ba10c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "05293bd2adf09de0",
+    "type": "split",
+    "children": [
+      {
+        "id": "eeb22c9fa44ff545",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ef45ee0184323eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Example Note.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "Example Note.md",
+    "index.md",
+    "the last time.md",
+    "Category - Meditation.md",
+    "being present.md",
+    "difference between anti-pattern and bad habit.md",
+    "Category - Anti-patterns.md",
+    "Category - Meditatoin.md",
+    "second brain systems.md",
+    "Category - Math.md"
+  ]
+}

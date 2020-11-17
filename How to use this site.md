@@ -5,7 +5,7 @@ For more of a "why" check out [[philosophy of this site]]
 Basically, I'm trying to make the site easier to parse and find connections with by using *visual cues*, *shortcuts*, and *dense linking*. Hopefully this will spur more thought or save some time.
 
 ### Linking
-The **right bar** (bottom on mobile) has pages that link **back** to the current page. This often called a *backlink* and can be a very useful companion. Check the backlinks section often for related topics.
+The **right bar** (bottom on mobile) has pages that link **back** to the current page. This often called a *backlink* and can be a very useful companion. **This is arguably the single most crucial point which makes the rest of the system usable. ** This is what makes is possible to [[think in graphs]] instead of  having to [[think linearly]]. Check the backlinks section often for related topics.
 
 You can always use the Home button on the **left bar** (top on mobile) to go back to the [[index]]. If the index gets big enough, I'll make meta-pages for categories. 
 
@@ -20,7 +20,7 @@ Hopefully that'll really push you to click that next internal link.
 ### Visual Cues
 **Internal** links, like [[How to use this site | this]], which are links that **stay on this domain** (sinakhalili.com), are *not* annotated in any way.
 
-**External** links, for example [this link to a very scientific analysis website](https://www.famousdetails.com/douglas-hofstadter/), are tagged with an emoji (namely, this notebook emoji 📝)
+**External** links, for example [this link to a very scientific analysis website](https://www.famousdetails.com/douglas-hofstadter/), are tagged with an emoji (namely, this notebook emoji 📝), and have **darker shade**. 
 
 Some **external** links are annotated with a **symbol**, because their website or their website creator is relevant, cool, or beautiful.
 
@@ -28,11 +28,7 @@ For example the website where I stole this from, [Gwern](https://gwern.net).
 
 Or for example the 🐐 website, [wikipedia](https://wikipedia.org).
 
-Try to guess your favourite ones! [wait who was that again](https://imdb.com), [let's adjust those priors!](https://lesswrong.com), [the website of truth](https://youtube.com), [espionage international](https://google.com), [intellectual time wasters](https://goodreads.com), [hey look at me I read papers](https://arxiv.org), [the original backlinkers](https://tvtropes.org), [plagiarism hq](https://scholar.google.com), [spaghetti recipes](https://github.com), [nope im not forgetting that](https://waybackmachine.org), [meta-thread mega thread](https://twitter.com), [this is reference number 1134](https://xkcd.com)
+For more examples, see [[symbol link dump]].
 
-
-Can't be online without reading a few blogs, you know, like the [SSC](https://slatestarcodex.com), the [lisp essayist](https://paulgraham.com), [spreading boi](https://meltingasphalt.com) and the like. 
-
-It also works for links that point to file types like pdf files [of great books](http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf), or maybe [text files](https://www.google.com/robots.txt), even [source files](https://raw.githubusercontent.com/SinaKhalili/SinaKhalili.github.io/master/coverstyle.css)
 
 What a great and wonderful time you will have, skipping the line of the hover-click and deciding in a single moment whether to click that link. 
