@@ -1,6 +1,6 @@
 Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie". 
 
-Note that a lot of these are just "thoughts" and have no basis in truth and make no epistemic claims of any kind. Probablistically speaking, some of these will be flat-out *wrong*. The act of thinking or reading itself is the goal here, not the destination. Feel free to prepend every paragraph with "To me, ..." to make the statements less **bold**.
+Note that a lot of these are just "thoughts" and have no basis in truth and make no epistemic claims of any kind. Probablistically speaking, some of these will be flat-out *wrong*. The act of thinking or reading itself is the goal here, not the destination. Feel free to prepend every paragraph with “To me, ...” to make the statements less **bold**.
 
 Note that this index is by no means an exhaustive list of the entries. Some you can only stumble upon serendipitously.
 

@@ -3,7 +3,7 @@ Is a [psychological concept](https://en.wikipedia.org/wiki/Gestalt_psychology)
 The psychology of the idea that the sum of the parts is greater than the whole. 
 
 Summarized by this quote: 
->"There are wholes, the behavior of which is not determined by that of their individual elements, but where the part-processes are themselves determined by the intrinsic nature of the whole. It is the hope of Gestalt theory to determine the nature of such wholes." - [Max Wertheimer](https://www.verywellmind.com/what-is-gestalt-psychology-2795808)
+>There are wholes, the behavior of which is not determined by that of their individual elements, but where the part-processes are themselves determined by the intrinsic nature of the whole. It is the hope of Gestalt theory to determine the nature of such wholes. - [Max Wertheimer](https://www.verywellmind.com/what-is-gestalt-psychology-2795808)
 
 This is an interesting reverse-view of [[emergent behaviour]].
 

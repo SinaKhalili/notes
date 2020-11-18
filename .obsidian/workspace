@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "readme.md",
+            "file": "lettersmith_py/README.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "\"\\\"\""
               }
             }
           }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md"
+                "file": "lettersmith_py/README.md"
               }
             }
           }
@@ -76,15 +76,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "lettersmith_py/README.md",
+    "index.md",
+    "gestalt.md",
+    "2020-11-13.md",
+    "_Draft Note.md",
     "readme.md",
     "Category - Film.md",
     "History of film.md",
     "emergent behaviour.md",
-    "gestalt.md",
-    "unconscious thought.md",
-    "beta movement.md",
-    "Beta_movement.gif",
-    "phi phenomenon.md",
-    "persistence of vision.md"
+    "unconscious thought.md"
   ]
 }
