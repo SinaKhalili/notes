@@ -1,3 +1,5 @@
+*[ [[Category - note taking]] ]*
+
 Here are some of the principles of taking good notes.
 
 These are my takeaways from reading about other [[second brain systems]].

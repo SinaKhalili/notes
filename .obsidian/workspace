@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lettersmith_py/README.md",
+            "file": "Category - note taking.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lettersmith_py/README.md"
+                "file": "Category - note taking.md"
               }
             }
           }
@@ -72,19 +72,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 416.4532470703125
   },
   "lastOpenFiles": [
-    "lettersmith_py/README.md",
+    "Category - note taking.md",
     "index.md",
     "gestalt.md",
-    "2020-11-13.md",
-    "_Draft Note.md",
-    "readme.md",
-    "Category - Film.md",
-    "History of film.md",
-    "emergent behaviour.md",
-    "unconscious thought.md"
+    "philosophy of this site.md",
+    "second brain systems.md",
+    "note taking principles.md",
+    "note taking.md",
+    "How to use this site.md",
+    "lettersmith_py/README.md",
+    "2020-11-13.md"
   ]
 }

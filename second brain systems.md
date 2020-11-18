@@ -1,3 +1,5 @@
+*[ [[Category - note taking]] ]*
+
 These are more or less frameworks for creating better, more concise, and more structured notes in order to encourage emergent connections (and then, intelligence).
 
 So far, I've seen a few systems I like to use, and am trying to be active in using them:
