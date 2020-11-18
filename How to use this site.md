@@ -1,11 +1,15 @@
 First of all, thanks for using this site. I really appreciated your visit here. 
 
-For more of a "why" check out [[philosophy of this site]] 
+For more of a “why” check out [[philosophy of this site]] 
 
 Basically, I'm trying to make the site easier to parse and find connections with by using *visual cues*, *shortcuts*, and *dense linking*. Hopefully this will spur more thought or save some time.
 
 ### Linking
-The **right bar** (bottom on mobile) has pages that link **back** to the current page. This often called a *backlink* and can be a very useful companion. **This is arguably the single most crucial point which makes the rest of the system usable. ** This is what makes is possible to [[think in graphs]] instead of  having to [[think linearly]]. Check the backlinks section often for related topics.
+The **right bar** (bottom on mobile) has pages that link **back** to the current page. This often called a *backlink* and can be a very useful companion. **This is arguably the single most crucial point which makes the rest of the system usable. ** 
+
+To get in the habit of using the backlinks, use the backlink instead of your browser "back" button 🔙, since wherever you came from will by definition have a backlink to the page that you're on (unless you used the right-side nav, in which case use the back button). 
+
+This is what makes is possible to [[think in graphs]] instead of  having to [[think linearly]]. Check the backlinks section often for related topics.
 
 You can always use the Home button on the **left bar** (top on mobile) to go back to the [[index]]. If the index gets big enough, I'll make meta-pages for categories. 
 

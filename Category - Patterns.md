@@ -18,7 +18,3 @@ The structuralists would argue it's an abstract structure defined in terms of wh
 The poststructuralists might argue that this not-something line of thought is infinite and leads to eating itself. They might be right.
 
 In any case, **connections** are just as important as the things themselves. Put another way, **links** are first-class citizens, and should be treated as such.
-
-Favs: 
-
-[[voronoi honeycombs]]

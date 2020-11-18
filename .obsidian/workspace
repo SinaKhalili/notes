@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f993d52f2fe469e7",
+        "id": "67e2f1ed5923767d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Category - note taking.md",
+            "file": "mixing leads to gatekeeping.md",
             "mode": "source"
           }
         }
@@ -48,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.0121879577637
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Category - note taking.md"
+                "file": "mixing leads to gatekeeping.md"
               }
             }
           }
@@ -75,15 +75,15 @@
     "width": 416.4532470703125
   },
   "lastOpenFiles": [
-    "Category - note taking.md",
+    "mixing leads to gatekeeping.md",
+    "Not all code is the same.md",
     "index.md",
-    "gestalt.md",
-    "philosophy of this site.md",
-    "second brain systems.md",
-    "note taking principles.md",
-    "note taking.md",
-    "How to use this site.md",
-    "lettersmith_py/README.md",
-    "2020-11-13.md"
+    "Category - Programming.md",
+    "Category - Mindset.md",
+    "vector of choices.md",
+    "Category - Essays.md",
+    "switch mindsets.md",
+    "double diamond.md",
+    "diamond.png"
   ]
 }

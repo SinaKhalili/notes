@@ -1,5 +1,5 @@
 html {
-  --bg: #fcfcfc;
+  --bg-second: #fcfcfc;
   --bg-main: #ebebeb;
   --colour-headings: #0077ff;
   --colour-text: #333333;
@@ -9,8 +9,8 @@ html {
 }
 
 html[data-theme="dark"] {
-  --bg-main: #333333;
-  --bg: #434343;
+  --bg-main: #0e151c;
+  --bg-second: #1e272f;
   --colour-headings: rgb(252, 246, 1, 0.7);
   --colour-text: #b5b5b5;
   --colour-anchor: #e46ec9;
@@ -33,7 +33,7 @@ body {
   src: url("/fonts/charter_regular.woff") format("woff");
   margin: 0;
   padding: 0;
-  background-color: var(--bg);
+  background-color: var(--bg-second);
   color: var(--colour-text);
 }
 
@@ -42,6 +42,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--bg-main);
+  height: 100vh;
+  overflow: scroll;
 }
 
 .main article {
@@ -50,6 +52,11 @@ body {
   min-width: 20em;
   line-height: 1.45;
   margin: 1em;
+}
+.main article::after {
+  content: "";
+  display: block;
+  padding-bottom: 10vh;
 }
 
 img {
@@ -73,12 +80,15 @@ article svg {
 .item {
   /* height: 100px; */
   max-width: 25%;
-  margin: 1em;
-  font-size: 14px;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 18px;
 }
 
 .right-bar {
   min-width: 25%;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .item + .item {
@@ -95,6 +105,17 @@ h3 {
 a {
   color: var(--anchor-external);
   text-decoration: none;
+}
+
+blockquote {
+  background-color: var(--bg-second);
+  padding: 0.5em;
+  border-radius: 10px;
+  margin: 0;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -116,13 +137,28 @@ a {
   }
   .main {
     justify-content: left;
+    overflow: unset;
+    height: unset;
   }
   .main article {
     font-size: 18px;
     min-width: 0em;
   }
+  .main article::after {
+    content: "";
+    display: block;
+    padding-bottom: 1vh;
+  }
   .item {
     max-width: 100vh;
+    margin-bottom: 4vh;
+  }
+  .right-bar {
+    height: unset;
+  }
+  h2 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
 }
 
@@ -134,12 +170,24 @@ a {
 
 .shadow-pop-bl {
   cursor: pointer;
-  transition: 500ms linear;
+  position: relative;
+  margin-top: 1em;
 }
 
-.shadow-pop-bl:hover {
-  -webkit-animation: color-change-5x 8s linear infinite alternate both;
-  animation: color-change-5x 8s linear infinite alternate both;
+.shadow-pop-bl::after {
+  background-color: pink;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 250ms;
+}
+
+.shadow-pop-bl:hover::after {
+  transform: scale(1.1);
 }
 @-webkit-keyframes color-change-5x {
   0% {
@@ -307,6 +355,7 @@ a[href*="longbets.org"]::after,
 a[href*="longnow.org"]::after,
 a[href*="marginalrevolution.com"]::after,
 a[href*="medium.com"]::after,
+a[href*="maggieappleton.com"]::after,
 a[href*="myanimelist.net"]::after,
 a[href*="nature.com"]::after,
 a[href*="xkcd.com"]::after,
@@ -650,12 +699,42 @@ a[href*="xkcd.com"]::after {
   -webkit-filter: var(--anchor-filter);
 }
 
+/* Josh Comeau's personal website looks like a divet and a W */
+a[href*="joshwcomeau.com"]::after {
+  content: "w^";
+  font-size: 0.55em;
+  width: 1em;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Lucida Sans Unicode", "Source Sans Pro", Helvetica,
+    "Trebuchet MS", sans-serif;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  bottom: 0.3em;
+  left: 0.1em;
+  opacity: 0.85;
+  font-weight: bold;
+  filter: var(--anchor-filter);
+  -webkit-filter: var(--anchor-filter);
+}
+
 /* Kevin Simler's Melting Asphalt blog */
 a[href*="meltingasphalt.com"]::after {
   content: "▲▲";
   font-size: 60%;
   bottom: 0.5em;
   letter-spacing: -0.1em;
+  filter: var(--anchor-filter);
+  -webkit-filter: var(--anchor-filter);
+}
+
+/* Maggie Appleton is just an M */
+a[href*="maggieappleton.com"]::after {
+  content: "M";
+  font-family: "Lucida Sans Unicode", "Source Sans Pro", Helvetica,
+    "Trebuchet MS", sans-serif;
+  font-weight: bolder;
   filter: var(--anchor-filter);
   -webkit-filter: var(--anchor-filter);
 }

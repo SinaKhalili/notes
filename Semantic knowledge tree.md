@@ -1,4 +1,4 @@
-Elon must on [his reddit ama](https://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/) said 
+Elon Musk on [his reddit ama](https://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/) said 
 
 > I do kinda feel like my head is full! My context switching penalty is high and my process isolation is not what it used to be.
 

@@ -1,13 +1,13 @@
 This website is built with [letter_smith.py](https://github.com/gordonbrander/lettersmith_py), a static site generator that works with markdown files. 
 
-To edit, I'm using [obsidian](https://obsidian.md/), which is a markdown based second brain type system. Previously I was using emacs org-roam, but Obsidian is a lot prettier.
+To edit, I'm using [obsidian](https://obsidian.md/), which is a markdown based second brain type system.
 
 ### Design
-I'm currently trying to use Butterick's [Practical Typography](https://practicaltypography.com/) guidelines. That means: 
+I'm trying too approach everything with a dark-mode awareness, so that dark mode is a first class citizen (instead of an afterthought). 
 
-- Using a reading area of around 75 characters
-- Using a nicer font. Currently : [Charter](https://practicaltypography.com/charter.html)
-- Making the site mobile-responsive
+One source of inspiration is [Josh Comeau's website](https://joshwcomeau.com/). 
+
+I'm also currently trying to use Butterick's [Practical Typography](https://practicaltypography.com/) guidelines. 
 
 ### Inspired by
 
@@ -15,4 +15,6 @@ The following sites have great design, which I try to ~~emulate~~ steal:
 
 - https://gwern.net
 - https://maggieappleton.com
-- some other thing
+- https://joshwcomeau.com/
+
+### Things I've learned making this site

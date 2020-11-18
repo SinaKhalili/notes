@@ -1,6 +1,6 @@
 *[ [[Category - Patterns]] ] [ [[Category - Math ]] ] *
 
-It made me think of my favourite [reddit post](https://www.reddit.com/r/askscience/comments/3i1vd0/this_coconut_oil_melted_during_a_heat_wave_and/); a user is asking about a honeycomb structure in his coconut oil after an earthquake:
+Here's one of my favourite [reddit posts](https://www.reddit.com/r/askscience/comments/3i1vd0/this_coconut_oil_melted_during_a_heat_wave_and/). A user is asking about a honeycomb structure in his coconut oil after an earthquake:
 
 ![honey](/static/img/honey.jpg)
 

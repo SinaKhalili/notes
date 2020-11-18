@@ -1,15 +1,14 @@
-Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie". 
+✨ First time here? Read the [[welcome message]].
 
-Note that a lot of these are just "thoughts" and have no basis in truth and make no epistemic claims of any kind. Probablistically speaking, some of these will be flat-out *wrong*. The act of thinking or reading itself is the goal here, not the destination. Feel free to prepend every paragraph with “To me, ...” to make the statements less **bold**.
-
-Note that this index is by no means an exhaustive list of the entries. Some you can only stumble upon serendipitously.
 
 ## Meta
 [[the making of this website]] | [[How to use this site]] | [this website on github](https://github.com/sinakhalili)| [[Website TODO]] | [[philosophy of this site]] 
 ## On note-taking
-[[note taking principles]] | [[second brain systems]] | [[philosophy of this site]]
+[[Category - note taking]] | [[note taking principles]] | [[second brain systems]] | [[philosophy of this site]]
 ## On knowledge
 [[Semantic knowledge tree]] | [[think by analogy]] | [[first principles thinking]] | [[Incompleteness Theorem]] | [[what is truth]] | [[Wittgenstein]]
+## Programming
+[[Category - Programming]] | [[Not all code is the same]]
 ## Patterns
 [[Category - Patterns]] | [[voronoi honeycombs]]
 ## Anti-Patterns
