@@ -3,6 +3,7 @@
 Welcome to my personal wiki!
 
 ## Check it out
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0928febf-1302-4002-b548-306e74b39e9b/deploy-status)](https://app.netlify.com/sites/affectionate-khorana-e39ca4/deploys)
 
 Link here https://notes.sinakhalili.com
 

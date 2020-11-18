@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Category - Film.md",
+            "file": "readme.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Category - Film.md"
+                "file": "readme.md"
               }
             }
           }
@@ -76,6 +76,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "readme.md",
     "Category - Film.md",
     "History of film.md",
     "emergent behaviour.md",
@@ -84,7 +85,6 @@
     "beta movement.md",
     "Beta_movement.gif",
     "phi phenomenon.md",
-    "persistence of vision.md",
-    "spokes.jpg"
+    "persistence of vision.md"
   ]
 }
