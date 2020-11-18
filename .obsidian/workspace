@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a2b61ca6c10cc1ed",
+        "id": "f993d52f2fe469e7",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "Category - Film.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md"
+                "file": "Category - Film.md"
               }
             }
           }
@@ -72,18 +72,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "index.md",
-    "wacky things.md",
-    "fake projects.md",
-    "lists of things to do.md",
-    "List Christmas 2020.md",
-    "List Christmas 2019.md",
-    "10 sick picks for a thick saint nick to do in a pandemic with you (2020 edition).md",
-    "Christmas 2019.md",
-    "Example Note.md",
-    "the last time.md"
+    "Category - Film.md",
+    "History of film.md",
+    "emergent behaviour.md",
+    "gestalt.md",
+    "unconscious thought.md",
+    "beta movement.md",
+    "Beta_movement.gif",
+    "phi phenomenon.md",
+    "persistence of vision.md",
+    "spokes.jpg"
   ]
 }

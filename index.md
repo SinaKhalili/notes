@@ -16,11 +16,14 @@ Note that this index is by no means an exhaustive list of the entries. Some you 
 [[Category - Anti-patterns]] | [[clown to clown conversation]] | [[difference between anti-pattern and bad habit]] | 
 ## Meditation
 [[Category - Meditation]] | [[humility is the mind-saviour]] | [[the last time]] | [[being present]]
+
+## Film
+[[Category - Film ]] | [[Recently watched flims]] | [[Filmmaking techniques]] | 
 ## Misc
 [[wacky things]] | 😛
 
 
 > Warning 
-> I peaked intellectually in early elementary. It's been mostly downhill pseudo intellectual schiztoposting since. 
+> I peaked intellectually in early elementary. It's been mostly downhill pseudo intellectual posting since. 
 
 ![Screen Shot 2020-11-14 at 4.00.22 AM.png](./static/img/young_sina.png)
