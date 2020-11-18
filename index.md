@@ -16,6 +16,9 @@ Note that this index is by no means an exhaustive list of the entries. Some you 
 [[Category - Anti-patterns]] | [[clown to clown conversation]] | [[difference between anti-pattern and bad habit]] | 
 ## Meditation
 [[Category - Meditation]] | [[humility is the mind-saviour]] | [[the last time]] | [[being present]]
+## Misc
+[[wacky things]]
+
 
 > Warning 
 > I peaked intellectually in early elementary. It's been mostly downhill pseudo intellectual schiztoposting since. 
