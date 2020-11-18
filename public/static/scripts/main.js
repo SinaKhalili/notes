@@ -1,8 +1,3 @@
-var currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
-  document.documentElement.setAttribute("data-theme", "dark");
-} 
-
 function toggleTheme() {
     let new_theme = currentTheme == 'dark'? 'light' : 'dark'
     trans()

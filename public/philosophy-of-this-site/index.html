@@ -7,6 +7,14 @@
   <title>philosophy of this site | Mind excursions</title>
   <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
   <link rel="stylesheet" href="/static/styles/main.css">
+  <script>
+  var currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme == "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } 
+
+  </script>
 
 </head>
 <body>
@@ -48,10 +56,10 @@
     
         <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
     
-        <p><a class="wikilink" href="/how-to-use-this-site/">How to use this site</a><br>First of all, thanks for using this site</p>
-    
         <p><a class="wikilink" href="/think-in-graphs/">think in graphs</a><br>
 As an incident response engineer at Google, nearly every incident I’ve investigated leads to one common truth: relationships between events are more important than the events themselves</p>
+    
+        <p><a class="wikilink" href="/how-to-use-this-site/">How to use this site</a><br>First of all, thanks for using this site</p>
     
 </div>
 

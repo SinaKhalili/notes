@@ -7,6 +7,14 @@
   <title>the last time | Mind excursions</title>
   <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
   <link rel="stylesheet" href="/static/styles/main.css">
+  <script>
+  var currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme == "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } 
+
+  </script>
 
 </head>
 <body>
@@ -46,9 +54,9 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
-    
         <p><a class="wikilink" href="/category---meditation/">Category - Meditation</a><br>I've been following Sam Harris' Waking up, and I must say it's quite an enormously powerful and deep practice</p>
+    
+        <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
     
 </div>
 

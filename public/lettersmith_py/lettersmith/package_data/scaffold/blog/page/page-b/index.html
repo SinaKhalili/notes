@@ -7,6 +7,14 @@
   <title>Page B | Mind excursions</title>
   <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
   <link rel="stylesheet" href="/static/styles/main.css">
+  <script>
+  var currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme == "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } 
+
+  </script>
 
 </head>
 <body>

@@ -7,6 +7,14 @@
   <title>Wittgenstein | Mind excursions</title>
   <!-- <link rel="stylesheet" href="/static/styles/links.css"> -->
   <link rel="stylesheet" href="/static/styles/main.css">
+  <script>
+  var currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme == "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } 
+
+  </script>
 
 </head>
 <body>
@@ -38,9 +46,9 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
-    
         <p><a class="wikilink" href="/think-by-analogy/">think by analogy</a><br>We can really only think by analogy</p>
+    
+        <p><a class="wikilink" href="/">index</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
     
 </div>
 
