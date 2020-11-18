@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "wacky things.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wacky things.md"
+                "file": "index.md"
               }
             }
           }
@@ -75,10 +75,10 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "index.md",
     "wacky things.md",
     "fake projects.md",
     "lists of things to do.md",
-    "index.md",
     "List Christmas 2020.md",
     "List Christmas 2019.md",
     "10 sick picks for a thick saint nick to do in a pandemic with you (2020 edition).md",

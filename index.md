@@ -17,7 +17,7 @@ Note that this index is by no means an exhaustive list of the entries. Some you 
 ## Meditation
 [[Category - Meditation]] | [[humility is the mind-saviour]] | [[the last time]] | [[being present]]
 ## Misc
-[[wacky things]]
+[[wacky things]] | 😛
 
 
 > Warning 
