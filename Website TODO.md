@@ -1,5 +1,6 @@
-Ideas for the new blog: 
- - Gwern-style wikipedia popovers
- - Little inline logos for external links
- - Table of contents
- - Images don't work -- fix this!
+Ideas for the new notes website: 
+ - ~~Little inline logos for external links~~
+ - ~~Images don't work -- fix this!~~
+ - ~~Category pages~~
+ - Import over my notion notes
+ - Table of contents for long pages

@@ -8,5 +8,8 @@ But now, I think of a lot of things in terms of antipatterns.
 
 Studying anti-patterns is almost as fun as studying regular patterns. I've even invented my own anti-patterns that I see in the wild.
 
+### Python (Lessons I need to learn)
+[[not using dict comprehensions]] | [[asking for permission instead of forgiveness]] | [[use zip instead of iterating]]
+
 ### Social
 [[clown to clown conversation]] : Two people trying to impress eachother with shallow knowledge of a field.

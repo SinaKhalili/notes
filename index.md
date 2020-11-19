@@ -1,23 +1,24 @@
 ✨ First time here? Read the [[welcome message]].
 
+To see all the category pages, see [[Category - Category]]. 
 
 ## Meta
-[[the making of this website]] | [[How to use this site]] | [this website on github](https://github.com/sinakhalili)| [[Website TODO]] | [[philosophy of this site]] 
+[[the making of this website]] | [[How to use this site]] | [this website on github](https://github.com/sinakhalili)| [[Website TODO]] | [[philosophy of this site]] | [[Category - Category]]
 ## On note-taking
 [[Category - note taking]] | [[note taking principles]] | [[second brain systems]] | [[philosophy of this site]]
 ## On knowledge
 [[Semantic knowledge tree]] | [[think by analogy]] | [[first principles thinking]] | [[Incompleteness Theorem]] | [[what is truth]] | [[Wittgenstein]]
-## Programming
-[[Category - Programming]] | [[Not all code is the same]]
-## Patterns
+## Computer Science
+[[Category - Computer Science]]| [[complexity theory]] | [[Category - Programming]] | [[Not all code is the same]]
+## Patterns & Anti-Patterns
 [[Category - Patterns]] | [[voronoi honeycombs]]
-## Anti-Patterns
 [[Category - Anti-patterns]] | [[clown to clown conversation]] | [[difference between anti-pattern and bad habit]] | 
 ## Meditation
 [[Category - Meditation]] | [[humility is the mind-saviour]] | [[the last time]] | [[being present]]
-
 ## Film
-[[Category - Film ]] | [[Recently watched flims]] | [[Filmmaking techniques]] | 
+[[Category - Film ]] | [[films I have seen]] | [[Filmmaking techniques]] 
+## Writing
+[[books I have read]] | [[writing advice]] |  [[concise writing]]
 ## Misc
 [[wacky things]] | 😛
 

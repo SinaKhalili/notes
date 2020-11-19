@@ -1,3 +1,6 @@
+root {
+}
+
 html {
   --bg-second: #fcfcfc;
   --bg-main: #ebebeb;
@@ -6,6 +9,7 @@ html {
   --colour-anchor: #ef007c;
   --anchor-external: #cd331f;
   --anchor-filter: grayscale(1);
+  --font-size: 18px;
 }
 
 html[data-theme="dark"] {
@@ -16,6 +20,7 @@ html[data-theme="dark"] {
   --colour-anchor: #e46ec9;
   --anchor-external: rgb(201, 108, 244);
   --anchor-filter: invert(1) sepia(1) brightness(3);
+  --font-size: 18px;
 }
 
 html.transition,
@@ -69,7 +74,7 @@ img {
 
 nav a {
   display: block;
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
 article svg {
@@ -82,7 +87,7 @@ article svg {
   max-width: 25%;
   margin-right: 1em;
   margin-left: 1em;
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
 .right-bar {
@@ -118,6 +123,42 @@ blockquote p {
   margin: 0;
 }
 
+pre {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+
+table {
+  /* Remove spacing between table cells (from Normalize.css) */
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+}
+
+table td,
+table th {
+  border-left: 1px solid #cbcbcb; /*  inner column border */
+  border-width: 0 0 0 1px;
+  font-size: var(--font-size);
+  margin: auto;
+  font-weight: normal;
+  overflow-x: scroll; /*to make ths where the title is really long work*/
+  padding: 0.5em 1em; /* cell padding */
+}
+
+table thead {
+  background-color: var(--bg-second);
+  color: var(--colour-text);
+  text-align: left;
+  vertical-align: bottom;
+}
+
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n) td {
+  background-color: var(--bg-second);
+}
+
 @media only screen and (max-width: 600px) {
   body {
     display: block;
@@ -141,7 +182,7 @@ blockquote p {
     height: unset;
   }
   .main article {
-    font-size: 18px;
+    font-size: var(--font-size);
     min-width: 0em;
   }
   .main article::after {
