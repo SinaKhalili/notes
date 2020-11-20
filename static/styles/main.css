@@ -48,7 +48,34 @@ body {
   justify-content: center;
   background-color: var(--bg-main);
   height: 100vh;
+  vertical-align: middle;
+}
+
+/* Scrollbar magic from https://forum.webflow.com/t/big-white-scrollbars-on-text-overflow/87454/2 */
+.main {
   overflow: scroll;
+  overscroll-behavior: contain;
+}
+::-webkit-scrollbar {
+  border-radius: 1pt;
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--bg-main),
+    var(--bg-second)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    var(--bg-main),
+    var(--bg-second)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15pt;
+}
+::-webkit-scrollbar-corner {
+  background: var(--bg-main);
 }
 
 .main article {
@@ -93,7 +120,9 @@ article svg {
 .right-bar {
   min-width: 25%;
   height: 100vh;
-  overflow: scroll;
+  overflow-y: auto;
+  vertical-align: middle;
+  scrollbar-width: none;
 }
 
 .item + .item {
@@ -125,6 +154,7 @@ blockquote p {
 
 pre {
   overflow-x: scroll;
+  vertical-align: middle;
   max-width: 100%;
 }
 
@@ -134,6 +164,8 @@ table {
   border-spacing: 0;
   empty-cells: show;
   border: 1px solid #cbcbcb;
+  overflow-x: scroll; /*to make ths where the title is really long work*/
+  vertical-align: middle;
 }
 
 table td,
@@ -143,7 +175,6 @@ table th {
   font-size: var(--font-size);
   margin: auto;
   font-weight: normal;
-  overflow-x: scroll; /*to make ths where the title is really long work*/
   padding: 0.5em 1em; /* cell padding */
 }
 
@@ -157,6 +188,10 @@ table thead {
 /* nth-child selector for modern browsers */
 table tr:nth-child(2n) td {
   background-color: var(--bg-second);
+}
+
+table tr:hover {
+  opacity: 0.85;
 }
 
 @media only screen and (max-width: 600px) {
