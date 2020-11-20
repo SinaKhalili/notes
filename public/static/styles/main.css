@@ -1,6 +1,3 @@
-root {
-}
-
 html {
   --bg-second: #fcfcfc;
   --bg-main: #ebebeb;
@@ -53,7 +50,7 @@ body {
 
 /* Scrollbar magic from https://forum.webflow.com/t/big-white-scrollbars-on-text-overflow/87454/2 */
 .main {
-  overflow: scroll;
+  overflow: auto;
   overscroll-behavior: contain;
 }
 ::-webkit-scrollbar {

@@ -1,8 +1,10 @@
 *[ [[films I have seen]] ]*
 
-(Copypasta'd from my film class)
+Simply stunning [Indonesian film](https://www.imdb.com/title/tt5923026/?ref_=nv_sr_srsg_0).
 
-Marlina the murderer in four acts - as an aside what incredible cinematography! I feel like every shot was a painting - has a lot of the western genre structures, both semantic and syntactic, and from it's wikipedia page is described as a "feminist western". 
+(Copypasta'd from my film class, this review is about the *genre* of Marlina the murderer)
+
+Marlina the murderer in four acts - as an aside what incredible cinematography! I feel like every shot was a painting - has a lot of the western genre structures, both semantic and syntactic, and from [it's wikipedia page](https://en.wikipedia.org/wiki/Marlina_the_Murderer_in_Four_Acts) is described as a "feminist western". 
 
 **Semantic**:
 
