@@ -9,6 +9,3 @@ For impactful quotes, see [[film quotes]]
 [[mis-en-scene]] | [[cinematography]] | [[aesthetics]] | [[editing]] | [[sound]]
 
 *[ [[TODO - Expand]] ]*
-
-Zooms: dolly, focal
-Pans: whip, normal

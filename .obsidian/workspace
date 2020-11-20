@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "85a930f895d0896f",
+        "id": "db64d5834df7abcb",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "films I have seen.md",
+            "file": "movement image and meditation.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"\\\"\""
+                "query": "\"\\\"\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -48,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.0121879577637
+    "width": 137.01218795776367,
+    "collapsed": true
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -64,7 +70,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "films I have seen.md"
+                "file": "movement image and meditation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -72,18 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.4532470703125
+    "width": 416.4532470703125,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "films I have seen.md",
-    "Marlina the murderer in four acts.md",
-    "man with a movie camera.md",
-    "soviet montage techniques.md",
-    "cutting to music.md",
-    "editing.md",
-    "TODO - Expand.md",
-    "Category - Film.md",
-    "Filmmaking techniques.md",
-    "index.md"
+    "Untitled 1.md",
+    "determinism machine.md",
+    "half-baked.md",
+    "movement-image.md",
+    "Gilles Deleuze.md",
+    "continental philosophy.md",
+    "objective reality.md",
+    "continental philosopher.md",
+    "Giles Deleuze.md",
+    "Film theory.md"
   ]
 }
