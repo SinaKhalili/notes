@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Catered to Your Future Self.md",
+            "file": "Category - Category.md",
             "mode": "source"
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 137.01218795776367,
-    "collapsed": true
+    "width": 281.0121879577637
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Catered to Your Future Self.md",
+                "file": "Category - Category.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,19 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.4532470703125,
-    "collapsed": true
+    "width": 416.4532470703125
   },
   "lastOpenFiles": [
-    "Catered to Your Future Self.md",
-    "censorship in disguise.md",
-    "assumptions.md",
-    "recommendation takeover.md",
-    "taste.md",
-    "Film analysis.md",
-    "modularity manages complexity.md",
-    "reccomendation takeover.md",
-    "Maximize time on platform.md",
-    "machine learning.md"
+    "Category - Category.md",
+    "note taking.md",
+    "film theorist.md",
+    "asd.md",
+    "this.md",
+    "Untitled.md",
+    "Filmmaking techniques.md",
+    "soviet montage techniques.md",
+    "Website TODO.md",
+    "Catered to Your Future Self.md"
   ]
 }

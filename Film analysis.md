@@ -1,4 +1,4 @@
-The academic field of film analysis. A real trove of nuanced thought (I say this unironically), with a healthy amount of baseless self-important pedantry so that it feels like a real academic field. 
+The academic field of film analysis. A real trove of nuanced interesting thought (I say this unironically), with a healthy amount of baseless self-important pedantry so that it feels like a real academic field. 
 
 ### List of papers I’ve read about film
 | Paper                                                       | Link                           |
