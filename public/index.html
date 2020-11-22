@@ -16,6 +16,10 @@
   <meta name="og:type" content="article">
   <link rel="canonical" href="https://notes.sinakhalili.com/index.html">
   <link rel="stylesheet" href="/static/styles/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
   <script>
   var currentTheme = localStorage.getItem("theme");
 
@@ -80,12 +84,15 @@ I peaked intellectually in early elementary. It's been mostly downhill pseudo in
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
-    
         <p><a class="wikilink" href="/welcome-message/">welcome message</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
     
         <p><a class="wikilink" href="/how-to-use-this-site/">How to use this site</a><br>First of all, thanks for using this site</p>
     
+        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
+    
+  <h3>Current <a href="/stats">progress</a>:</h3>
+  <p class="progress" id="progress">Loading...</p>
+  <a href="" onclick="clearProgress()">clear progress? 🚨</button>
 </div>
 
 
@@ -93,4 +100,5 @@ I peaked intellectually in early elementary. It's been mostly downhill pseudo in
 
 </body>
 <script src="/static/scripts/main.js"></script>
+<script src="/static/scripts/progress.js"></script>
 </html>

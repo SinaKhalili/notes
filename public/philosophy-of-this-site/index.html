@@ -16,6 +16,10 @@
   <meta name="og:type" content="article">
   <link rel="canonical" href="https://notes.sinakhalili.com/philosophy-of-this-site/index.html">
   <link rel="stylesheet" href="/static/styles/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
   <script>
   var currentTheme = localStorage.getItem("theme");
 
@@ -63,15 +67,18 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/think-in-graphs/">think in graphs</a><br>
-As an incident response engineer at Google, nearly every incident I’ve investigated leads to one common truth: relationships between events are more important than the events themselves</p>
+        <p><a class="wikilink" href="/how-to-use-this-site/">How to use this site</a><br>First of all, thanks for using this site</p>
     
         <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
     
         <p><a class="wikilink" href="/welcome-message/">welcome message</a><br>Welcome to my (personnal wiki|second-brain|digital garden)! Please have a gander, a frolic, and perhaps even a "looksie"</p>
     
-        <p><a class="wikilink" href="/how-to-use-this-site/">How to use this site</a><br>First of all, thanks for using this site</p>
+        <p><a class="wikilink" href="/think-in-graphs/">think in graphs</a><br>
+As an incident response engineer at Google, nearly every incident I’ve investigated leads to one common truth: relationships between events are more important than the events themselves</p>
     
+  <h3>Current <a href="/stats">progress</a>:</h3>
+  <p class="progress" id="progress">Loading...</p>
+  <a href="" onclick="clearProgress()">clear progress? 🚨</button>
 </div>
 
 
@@ -79,4 +86,5 @@ As an incident response engineer at Google, nearly every incident I’ve investi
 
 </body>
 <script src="/static/scripts/main.js"></script>
+<script src="/static/scripts/progress.js"></script>
 </html>

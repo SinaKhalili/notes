@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Category - Category.md",
+            "file": "stats.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Category - Category.md",
+                "file": "stats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,15 +82,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.4532470703125
+    "width": 416.4532470703125,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled.md",
     "Category - Category.md",
     "note taking.md",
     "film theorist.md",
     "asd.md",
     "this.md",
-    "Untitled.md",
     "Filmmaking techniques.md",
     "soviet montage techniques.md",
     "Website TODO.md",
