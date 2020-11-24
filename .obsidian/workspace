@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "stats.md",
+            "file": "unique perspective overconfidence.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stats.md",
+                "file": "unique perspective overconfidence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,19 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.4532470703125,
-    "collapsed": true
+    "width": 416.4532470703125
   },
   "lastOpenFiles": [
-    "Untitled.md",
-    "Category - Category.md",
-    "note taking.md",
-    "film theorist.md",
-    "asd.md",
-    "this.md",
-    "Filmmaking techniques.md",
-    "soviet montage techniques.md",
-    "Website TODO.md",
-    "Catered to Your Future Self.md"
+    "unique perspective overconfidence.md",
+    "not appreciating a field.md",
+    "Category - Anti-patterns.md",
+    "clown to clown conversation.md",
+    "unconsciously provoked to aggression.md",
+    "Category - Aphorism.md",
+    "film aphorisms.md",
+    "work with me not against me.md",
+    "infocure.md",
+    "Category - Patterns.md"
   ]
 }

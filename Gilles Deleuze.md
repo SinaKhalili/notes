@@ -1,6 +1,6 @@
 *[ [[Category  - Philosophy]] ]*
 
-A [[Film theory | film theorist]] and philospher, [Deleuze](https://en.wikipedia.org/wiki/Gilles_Deleuze) had much to say about our world. 
+A [[Film analysis | film theorist]] and philospher, [Deleuze](https://en.wikipedia.org/wiki/Gilles_Deleuze) had much to say about our world. 
 
 He was influenced by [Bergson](https://en.wikipedia.org/wiki/Henri_Bergson), and is considered a [[continental philosophy | continental philosophy]].
 

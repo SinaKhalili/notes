@@ -1,12 +1,8 @@
-*[ [[Category - Film]] ][ [[TODO - Expand]] ]*
+*[ [[Category - Film]] ]*
 
-### Cuts
-1. Classical,
-2. Cross,
-3. contrast,
-4. L,
-5. J,
-6. Smash
+The film is truly crafted on the editing floor, and it’s where most filmmakers will spend their time. 
+
+Filming itself, is more of the glory moment for the director, it’s the edit that is his old friend.
 
 ### Styles
-[[cutting to music]] | [[follow the eyes]]
+[[cutting to music]] | [[follow the eyes]] | [[types of cuts]]

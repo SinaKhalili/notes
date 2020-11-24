@@ -11,5 +11,10 @@ Studying anti-patterns is almost as fun as studying regular patterns. I've even 
 ### Python (Lessons I need to learn)
 [[not using dict comprehensions]] | [[asking for permission instead of forgiveness]] | [[use zip instead of iterating]]
 
-### Social
-[[clown to clown conversation]] : Two people trying to impress eachother with shallow knowledge of a field.
+### Real Life Tropes
+These anti-patterns are inspired by one of the [best websites ever](https://tvtropes.org)
+[[clown to clown conversation]]: Two people trying to impress eachother with shallow knowledge of a field.
+[[unique perspective overconfidence]]: Thinking you have a better grasp because of knowledge in some unrelated field.
+[[unconsciously provoked to aggression ]]: Unconsciously flipping a switch to becomming agressive.
+
+See also: [[Category - Aphorism]]
