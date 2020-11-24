@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -69,6 +71,15 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
+        <p><a class="wikilink" href="/backlinks/">backlinks</a><br>A backlink is a reference to a page which linked to the current page</p>
+    
+        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
+    
+        <p><a class="wikilink" href="/meta-page/">meta-page</a><br>[ Category - Category ]
+A meta-page is a page that doesn't contain information in itself but instead is used to structure this wiki and points to other pages</p>
+    
+        <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
+    
         <p><a class="wikilink" href="/category---philosophy/">Category  - Philosophy</a><br>[ Category - Category ][ quote dump ]
 
 Philosophy is a battle against the bewitchment of our intelligence by means of language - Wittgenstein (classic wittgenstein lol)
@@ -77,17 +88,8 @@ Philosophy is a battle against the bewitchment of our intelligence by means of l
 
 Life must be understood backward</p>
     
-        <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
-    
         <p><a class="wikilink" href="/taxonomy/">taxonomy</a><br>[ Category - Category ]
 Taxonomy is the study of categories</p>
-    
-        <p><a class="wikilink" href="/backlinks/">backlinks</a><br>A backlink is a reference to a page which linked to the current page</p>
-    
-        <p><a class="wikilink" href="/meta-page/">meta-page</a><br>[ Category - Category ]
-A meta-page is a page that doesn't contain information in itself but instead is used to structure this wiki and points to other pages</p>
-    
-        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
     
   <h3>Current <a href="/stats">progress</a>:</h3>
   <p class="progress" id="progress">Loading...</p>
@@ -100,4 +102,17 @@ A meta-page is a page that doesn't contain information in itself but instead is 
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

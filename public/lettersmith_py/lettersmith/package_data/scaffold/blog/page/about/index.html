@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -70,4 +72,17 @@
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

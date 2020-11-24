@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -81,18 +83,18 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
+        <p><a class="wikilink" href="/category---film/">Category - Film</a><br>The craft and study of film</p>
+    
         <p><a class="wikilink" href="/marlina-the-murderer-in-four-acts/">Marlina the murderer in four acts</a><br>[ films I have seen ]
 Simply stunning Indonesian film</p>
     
-        <p><a class="wikilink" href="/man-with-a-movie-camera/">man with a movie camera</a><br>[ films I have seen ]
-The classic masterpiece man with a movie camera</p>
-    
         <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
-    
-        <p><a class="wikilink" href="/category---film/">Category - Film</a><br>The craft and study of film</p>
     
         <p><a class="wikilink" href="/feminin-masculin/">Feminin Masculin</a><br>[ films I have seen ]
 A great Godard film</p>
+    
+        <p><a class="wikilink" href="/man-with-a-movie-camera/">man with a movie camera</a><br>[ films I have seen ]
+The classic masterpiece man with a movie camera</p>
     
   <h3>Current <a href="/stats">progress</a>:</h3>
   <p class="progress" id="progress">Loading...</p>
@@ -105,4 +107,17 @@ A great Godard film</p>
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -61,13 +63,13 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
+        <p><a class="wikilink" href="/recommendation-takeover/">recommendation takeover</a><br>[ Category - Essays ][ TODO - Expand ]
+Any widely spread enough recommendation algorithm, if used enough, will stop catering to the user's taste and start shaping their taste instead</p>
     
         <p><a class="wikilink" href="/enlightenment-completeness/">enlightenment-completeness</a><br>[ Category  - Philosophy ][ Category - Meditation ][ Category - Essays ]
 In complexity theory, there is a concept of reduction, which (at a high level) is reducing one problem to another such that if you were to solve one, the other would also be solved (by using the same methodology you used to solve the first one)</p>
     
-        <p><a class="wikilink" href="/recommendation-takeover/">recommendation takeover</a><br>[ Category - Essays ][ TODO - Expand ]
-Any widely spread enough recommendation algorithm, if used enough, will stop catering to the user's taste and start shaping their taste instead</p>
+        <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
     
         <p><a class="wikilink" href="/vector-of-choices/">vector of choices</a><br>[ Category - Mindset ] [ Category - Essays ]
 You walk upon a locked door</p>
@@ -83,4 +85,17 @@ You walk upon a locked door</p>
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

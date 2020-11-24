@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -67,16 +69,16 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/difference-between-anti-pattern-and-bad-habit/">difference between anti-pattern and bad habit</a><br>[ Category - Anti-patterns ]
-The key difference about anti-patterns compared to regular bad habits are that they have solutions, so the key is in identification rather than prevention</p>
+        <p><a class="wikilink" href="/clown-to-clown-conversation/">clown to clown conversation</a><br>[ Category - Anti-patterns ]
+Problem
+I've decided to call this antipattern a clown-to-clown conversation because that's what happens if you fall for it</p>
     
         <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
     
         <p><a class="wikilink" href="/category---category/">Category - Category</a><br>Category meta-page for other category pages</p>
     
-        <p><a class="wikilink" href="/clown-to-clown-conversation/">clown to clown conversation</a><br>[ Category - Anti-patterns ]
-Problem
-I've decided to call this antipattern a clown-to-clown conversation because that's what happens if you fall for it</p>
+        <p><a class="wikilink" href="/difference-between-anti-pattern-and-bad-habit/">difference between anti-pattern and bad habit</a><br>[ Category - Anti-patterns ]
+The key difference about anti-patterns compared to regular bad habits are that they have solutions, so the key is in identification rather than prevention</p>
     
   <h3>Current <a href="/stats">progress</a>:</h3>
   <p class="progress" id="progress">Loading...</p>
@@ -89,4 +91,17 @@ I've decided to call this antipattern a clown-to-clown conversation because that
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

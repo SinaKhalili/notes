@@ -191,6 +191,17 @@ table tr:hover {
   opacity: 0.85;
 }
 
+input[type="search"] {
+  background-color: var(--bg-main);
+  color: var(--colour-text);
+  margin-top: 1em;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5em;
+  min-width: 10em;
+  font-size: var(--font-size);
+}
+
 @media only screen and (max-width: 600px) {
   body {
     display: block;

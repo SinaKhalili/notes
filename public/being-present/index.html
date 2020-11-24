@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -63,17 +65,17 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/catered-to-your-future-self/">Catered to Your Future Self</a><br>[ Film analysis ]
-Paper: Catered to Your Future Self: Netflix’s “Predictive Personalization” and the Mathematization of Taste
-Author: Neta Alexander
-Discussion on taste</p>
-    
         <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
     
         <p><a class="wikilink" href="/the-last-time/">the last time</a><br>[ Category - Meditation ]
 In one of his theory audios, Sam Harris mentions that by definition, you will do anything you've done for the last time</p>
     
         <p><a class="wikilink" href="/enlightenment/">enlightenment</a><br>A state of constantly being present, of having no ego, and kindness</p>
+    
+        <p><a class="wikilink" href="/catered-to-your-future-self/">Catered to Your Future Self</a><br>[ Film analysis ]
+Paper: Catered to Your Future Self: Netflix’s “Predictive Personalization” and the Mathematization of Taste
+Author: Neta Alexander
+Discussion on taste</p>
     
   <h3>Current <a href="/stats">progress</a>:</h3>
   <p class="progress" id="progress">Loading...</p>
@@ -86,4 +88,17 @@ In one of his theory audios, Sam Harris mentions that by definition, you will do
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>

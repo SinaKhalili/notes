@@ -45,8 +45,10 @@
   <nav>
       <a href="/"> 🏚 Home</a>
       <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
-      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>  
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
   </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
 </div>
 
 <div class="main">
@@ -66,10 +68,10 @@
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
-    
         <p><a class="wikilink" href="/think-in-graphs/">think in graphs</a><br>
 As an incident response engineer at Google, nearly every incident I’ve investigated leads to one common truth: relationships between events are more important than the events themselves</p>
+    
+        <p><a class="wikilink" href="/">index</a><br>✨ First time here? Read the welcome message</p>
     
         <p><a class="wikilink" href="/first-principles-thinking/">first principles thinking</a><br>A form of thinking and reasoning that starts with an axiomatic set of given constrains and moves forward in logical steps</p>
     
@@ -84,4 +86,17 @@ As an incident response engineer at Google, nearly every incident I’ve investi
 </body>
 <script src="/static/scripts/main.js"></script>
 <script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
 </html>
