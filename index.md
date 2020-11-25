@@ -2,8 +2,10 @@
 
 To see all the category pages, see [[Category - Category]]. 
 
+## About this site
+[[the making of this website]] | [[How to use this site]] | [this website on github](https://github.com/sinakhalili)| [[Website TODO]] | [[philosophy of this site]] | [[Category - Category]] 
 ## Meta
-[[the making of this website]] | [[How to use this site]] | [this website on github](https://github.com/sinakhalili)| [[Website TODO]] | [[philosophy of this site]] | [[Category - Category]]
+[[Category - Category]] | [[tables and lists]]
 ## On note-taking
 [[Category - note taking]] | [[note taking principles]] | [[second brain systems]] | [[philosophy of this site]]
 ## On knowledge
@@ -16,11 +18,11 @@ To see all the category pages, see [[Category - Category]].
 ## Meditation
 [[Category - Meditation]] | [[humility is the mind-saviour]] | [[the last time]] | [[being present]]
 ## Film
-[[Category - Film ]] | [[films I have seen]] | [[Filmmaking techniques]] 
+[[Category - Film ]] | [[film theory]] | [[films I have seen]] | [[Filmmaking techniques]] 
 ## Writing
 [[books I have read]] | [[writing advice]] |  [[concise writing]]
 ## Misc
-[[wacky things]] | 😛
+[[random webdives]] | [[wacky things]] 
 
 
 > Warning 

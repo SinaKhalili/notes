@@ -16,5 +16,6 @@ These anti-patterns are inspired by one of the [best websites ever](https://tvtr
 [[clown to clown conversation]]: Two people trying to impress eachother with shallow knowledge of a field.
 [[unique perspective overconfidence]]: Thinking you have a better grasp because of knowledge in some unrelated field.
 [[unconsciously provoked to aggression ]]: Unconsciously flipping a switch to becomming agressive.
+[[exploitable position]]: Putting yourself in a position where you may do something contrary to your ideals.
 
 See also: [[Category - Aphorism]]

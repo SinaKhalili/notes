@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "db64d5834df7abcb",
+        "id": "80613f93575286e5",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "unique perspective overconfidence.md",
+            "file": "Website TODO.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unique perspective overconfidence.md",
+                "file": "Website TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,18 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.4532470703125
+    "width": 147.6395263671875
   },
   "lastOpenFiles": [
-    "unique perspective overconfidence.md",
-    "not appreciating a field.md",
-    "Category - Anti-patterns.md",
-    "clown to clown conversation.md",
-    "unconsciously provoked to aggression.md",
-    "Category - Aphorism.md",
-    "film aphorisms.md",
-    "work with me not against me.md",
-    "infocure.md",
-    "Category - Patterns.md"
+    "Website TODO.md",
+    "index.md",
+    "Category - Film.md",
+    "Film analysis.md",
+    "film quotes.md",
+    "films I have seen.md",
+    "Camera.md",
+    "feminist film theory.md",
+    "contemporary film theory.md",
+    "psychoanalytic film theory.md"
   ]
 }

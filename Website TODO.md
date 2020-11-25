@@ -8,10 +8,10 @@ Ideas for the this website:
  - Table of contents for long pages: Maybe make a plugin for this?
 
 
-### Gamification
- - Gamify the site! 
- - Progress bar: shows how much of the wiki you've read so far
- - Use local storage
- - Achievements: gives you a reward after a certain amount of pages are read
- - Recall challenges?
- - Have reading stats?
+### Stats ✅ Done
+ - The reading stats in a [[stats]] page
+ - Show progress in sidebar
+
+### Search  ✅ Done, shoutout algolia
+ - Implement site-wide search
+

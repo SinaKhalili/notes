@@ -31,7 +31,9 @@ function createTable() {
     }
     for (let element of elements) {
         const drow = table.insertRow(-1);
-        drow.insertCell(-1).innerHTML = `<a href="${element[0]}">${element[0]}</a>`;
+        let titlePretty = decodeURI(element[0].split("/")[1].split("-").join(" "))
+        titlePretty = titlePretty === ""? "Home" : titlePretty
+        drow.insertCell(-1).innerHTML = `<a href="${element[0]}">${titlePretty}</a>`;
         drow.insertCell(-1).innerHTML = element[1];
     }
     statsElement.appendChild(table)

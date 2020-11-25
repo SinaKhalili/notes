@@ -1,6 +1,6 @@
 const NUM_VIEWED = "numViewed"
 
-const currname = location.pathname
+const currname = location.pathname.split("index.html")[0]
 
 function updateProgress(){
 
