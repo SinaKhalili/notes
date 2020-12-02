@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "80613f93575286e5",
+        "id": "da24b605c116689d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Website TODO.md",
-            "mode": "source"
+            "file": "ruby on rails.md",
+            "mode": "preview"
           }
         }
       }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.0121879577637
+    "width": 281.0121879577637,
+    "collapsed": true
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Website TODO.md",
+                "file": "ruby on rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,18 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 147.6395263671875
+    "width": 147.6395263671875,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "Website TODO.md",
-    "index.md",
-    "Category - Film.md",
-    "Film analysis.md",
-    "film quotes.md",
-    "films I have seen.md",
-    "Camera.md",
-    "feminist film theory.md",
-    "contemporary film theory.md",
-    "psychoanalytic film theory.md"
+    "ruby on rails.md",
+    "nix commands.md",
+    "Learning programming.md",
+    "git.md",
+    "vscode.md",
+    "readline commands.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Category - Programming.md",
+    "Youtube Hole.md"
   ]
 }

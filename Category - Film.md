@@ -16,3 +16,6 @@ For impactful quotes, see [[film quotes]].
 
 ### Filmmaking - What you do 💪
 [[movie process pipeline]] | [[handling film equipment]]
+
+### Filmmaking - Getting started
+[[low budget filmmaking]]| [[quick wins]]

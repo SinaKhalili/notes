@@ -1,0 +1,241 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ruby on rails | Mind excursions</title>
+  <meta name="title" content="ruby on rails">
+  <meta name="citation_title" content="ruby on rails">
+  <meta name="og:title" content="ruby on rails">
+  <meta name="creator" content="notes.sinakhalili.com">
+  <meta name="author" content="Sina Khalili">
+  <meta name="citation_author" content="Sina Khalili">
+  <link rel="index" title="Sina's notes" href="https://notes.sinakhalili.com">
+  <meta name="og:site" content="https://notes.sinakhalili.com">
+  <meta name="og:type" content="article">
+  <link rel="canonical" href="https://notes.sinakhalili.com/ruby-on-rails/index.html">
+  <link rel="stylesheet" href="/static/styles/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
+  <script>
+  var currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme == "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+  </script>
+
+</head>
+<body>
+
+
+<div class="item">
+  <div class="jello-horizontal">
+    <picture>
+      <source class="shadow-pop-bl" srcset="/static/img/face-top-min.webp" type="image/webp">
+     <a href="/clicking-the-head-should-do-something">
+      <img class="shadow-pop-bl" src="/static/img/face-top-min.png" alt="picture of sin">
+     </a> 
+    </picture>
+  </div>
+    <h2>Sina’s PKM</h2>
+  <nav>
+      <a href="/"> 🏚 Home</a>
+      <a href="/how-to-use-this-site"> 🤔 How to use this site</a>
+      <a href="#" onclick="toggleTheme()">⚙️ Toggle dark mode</a>
+  </nav>
+  <input type="search" name="algolia_search" id="search" placeholder="🔎  Search...">
+
+</div>
+
+<div class="main">
+  <article>
+    <h1>ruby on rails</h1>
+    <div><p>Ah, the classical language of beauty, Ruby. </p>
+<p>Despite the <a href="https://poignant.guide">Poignant Guide</a> being my all-time favourite programming book, I really haven't been able to use Ruby or Rails that much.</p>
+<p>That changes now! I'm going to be reading <a href="https://www.railstutorial.org/book">Learn enough rails to be dangerous</a>  and sharing my notes. In the end I will build a small "secret santa" application.</p>
+<p>Let's begin! </p>
+<h2>General notes (like live tweets)</h2>
+<p>Rails is model-view-controller. A bit different from Django's Model-view-template, MVC is actually easier conceptually.</p>
+<p>The templating lanuage uses <code>&lt;%= ... %&gt;</code> for computations that are rendered (expressions), and <code>&lt;% ... %&gt;</code> for those that aren't shown. </p>
+<p>With default options the <code>rails new</code> is massive. It even uses Yarn to install a bunch of webpack stuff. 😓. I guess rails never advertised itself as "minimal". </p>
+<p><code>app/assets</code> is the <em>asset pipeline</em>, for static files.</p>
+<p><code>config/routes.rb</code>  is the routes files, like url.py in Django. Uses it's own DSL which is cool 😎</p>
+<p>The code generation of the <code>rails</code> commandline is out of this world. Writing files like it's going out of style.</p>
+<p>Remember to run the migrations! <code>rails db:migrate</code></p>
+<p>It comes with a Rakefile (like a Makefile) that has a <code>routes</code> command to show all the routes, just call <code>rake routes</code></p>
+<p>If you use <code>user:references</code> then a <code>user_id</code> is added the migration, and <code>belongs_to :user</code> is also added to the model. </p>
+<p>For example: <br />
+<code>rails generate model Profile user:references</code></p>
+<h2>Router</h2>
+<p>looks like <code>root 'application#hello'</code>  which means a request for root should go to controller application, with function "hello". </p>
+<h2>Gemfile</h2>
+<p>Split up into different "groups". <br />
+Standard move: create a new :production group and add the postgres gem (for Heroku). </p>
+<pre class="highlight"><code class="language-ruby">group :production do
+  gem 'pg', '1.2.3'
+end
+</code></pre>
+
+<p>Use <code>bundle config set without 'production'</code> to not install the production gems</p>
+<h2>Scaffolding</h2>
+<p>Generating is creating one new file, Scaffolding is code for an entire new resource<br />
+<code>rails generate scaffold User name:string email:string</code><br />
+Then use name:type for the User attributes.<br />
+😲 It created a web interface to the model! Just go to <code>/users</code>  and to get to a user, use <code>/users/:id</code>. The id's start at 1. Basically, this calls different methods on the Users controller.<br />
+This is because it added the line <code>resources :users</code> to the routes.rb<br />
+The scaffolding automatically updates the routes.rb.<br />
+If you just want the controller, then you use <code>rails generate controller CamelCase action action2</code>.<br />
+The CapitalCamelCase is converted to snake_case_controller. Pretty neat.<br />
+The extra actions are the ones in addition to the REST ones. <br />
+You can undo code generation with <code>rails destroy controller CamelCase actoin action2</code><br />
+When you generate a controller, a test file in the <code>tests</code> folder is automatically created🤓<br />
+The base html file is created under the layouts</p>
+<h2>Controllers</h2>
+<p>Controllers have different <em>actions</em>, which are methods called on particular HTTP requests, for example GET is show, POST is create.<br />
+Inheriting from ApplicationController gives you ActiveRecord, the rails ORM, so that's why these empty controllers have all this functionality.<br />
+The controller executes the action which coresponds to the url, if not specified. <code>/home</code> is the <code>home</code> action.<br />
+Empty controller action just renders a view (in <code>views/snake_case_name/home.html.erb</code>)</p>
+<p>Use <code>before_action</code> with a method to fetch the user for the edit, show, and destroy pages. Scaffolding does this automatically.</p>
+<pre class="highlight"><code class="language-ruby">  before_action :set_user, only: [:show, :destroy]
+...
+
+  def set_user
+    @user = User.find(params[:id])
+  end
+</code></pre>
+
+<h2>Models</h2>
+<p>You can use the <code>has_many</code> and <code>belongs_to</code> to refer to key/foreign keys. I guess it uses some ruby metaprogramming magic to make it work.</p>
+<p>The rails ORM is called active record.<br />
+To update, use<br />
+<code>User.update(12, user_name: "bob")</code>, the first param is the id. </p>
+<p>To access a model through it parent use <code>accepts_nested_attirbutes_for</code></p>
+<pre class="highlight"><code class="language-ruby">class User &lt; ApplicationRecord
+  has_one :profile
+  accepts_nested_attributes_for :profile, update_only: true
+end
+</code></pre>
+
+<h2>Console</h2>
+<p>You can use the console by writing <code>rails console</code>. It's pretty good, and it updates with db changes so you can do it live with the server runng!</p>
+<h2>Views</h2>
+<p>The base html is in layouts.<br />
+The folders corresspond to the controller names.<br />
+Uses <code>yield</code> as the block to be replaced. <code>yield(:title)</code> is the title, if in the main file you use <code>&lt;% provide(:title, "hello") %&gt;</code>... pretty cool!</p>
+<h2>Clearance</h2>
+<p>This is a gem for doing user authentication by thoughtbot (who are pretty goated in the rails world). <br />
+Remember to read their Readme and use their generators.<br />
+First install<br />
+<code>rails generate clearance:install</code><br />
+then the views<br />
+<code>rails generate clearance:views</code><br />
+then the routes<br />
+<code>rails generate clearance:routes</code></p>
+<p>If you have a controller to modify and you only want the user's data in that controller, use a <code>before_action</code> with <code>require_login</code> and in the index method use the <code>current_user</code> <br />
+Example</p>
+<pre class="highlight"><code class="language-ruby">class BeanpostsController &lt; ApplicationController
+  before_action :require_login
+
+  def index
+    @beanposts = current_user.beanposts
+  end
+</code></pre>
+
+<p>This is how you can create a my_account page. To create a new post using the user, use the <code>build</code> command.</p>
+<p>Use a <code>Profile</code> controller to give user accounts extra data. <br />
+Make the profile <code>rails g scaffold Profile bio:text user_id:integer</code><br />
+Give the user <strong>model</strong> a <code>has_one</code> like so:</p>
+<pre class="highlight"><code class="language-ruby">class User &lt; ApplicationRecord
+  include Clearance::User
+  has_many :beanposts
+  has_one :profile, dependent: :destory
+  before_create :build_profile
+  accepts_nested_attributes_for :profile
+end
+</code></pre>
+
+<p>And give the Profile <strong>model</strong> a  <code>belongs_to</code>, use <code>dependent</code> to ripple delete the profile (or else it will be orphaned after user delete)</p>
+<pre class="highlight"><code class="language-ruby">class Profile &lt; ApplicationRecord
+    belongs_to :user
+end
+</code></pre>
+
+<p>You can add a link to create your profile in the layout (new_profile_path)</p>
+<pre class="highlight"><code class="language-erb"> &lt;% if signed_in? %&gt;
+   Welcome back, &lt;%= current_user.email %&gt; (&lt;%= link_to 'Sign out', sign_out_path, method: :delete %&gt;)
+    Make sure to &lt;%= link_to  &quot;Update your profile&quot;, edit_profile_path %&gt;
+  &lt;% else %&gt;
+</code></pre>
+
+<p>Make sure to change the <code>create</code> and <code>new</code> methods to use <code>current_user</code> (controller)</p>
+<pre class="highlight"><code class="language-ruby">  def new
+    @profile = current_user.build_profile
+  end
+
+  def create
+    @profile = current_user.build_profile(profile_params)
+  end
+
+  def edit
+    @profile = current_user.profile.find(params[:id])
+  end
+    ...
+</code></pre>
+
+<h2>Migrations</h2>
+<p>You store data in the db, and can change it over time with migrations. <br />
+Using the command line tool for mirgrations, rails will auto-generate the migrations based on the naming of the migrations. For example to add a field to something: <br />
+<code>rails generate migration AddUserRefToProducts user:references</code><br />
+If you use AddSomethingToModel, the model is chosen automatically.</p>
+<h2>From 0 to 💯</h2>
+<p>Use the rails command line.<br />
+1. <code>rails new app</code> Creates a new rails app with scaffolding<br />
+2. Check the routes in <code>config/routes.rb</code>, add <code>root 'foo#bar'</code><br />
+3. If using Heroku, add the <code>pg</code> gem and move the <code>sqlite</code> from the global namespace into the <code>development, test</code>. <br />
+4. Put it on Heroku:<br />
+    1.   <code>heroku login</code> to the account<br />
+    2.   <code>heroku create</code> the app<br />
+    3.   use their recommended Procfile: <code>web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}</code><br />
+    4.   use <code>git push heroku main</code> for pushing to heroku<br />
+5. Use <code>rails generate scaffold User name:string email:string</code> to make a user<br />
+6. Run the migration <code>rails db:migrate</code><br />
+7. Use <a href="https://github.com/thoughtbot/clearance">clearance</a> for simple user accounts (follow the readme)<br />
+8. Make sure to use the clearance generators<br />
+9. Make a <code>StaticPages</code> controller for the homepage, and other static pages. Use <code>rails g controller StaticPages home about help</code></p></div>
+  </article>
+</div>
+
+<div class="item right-bar">
+  <h2>Pages that link here:</h2>
+    
+        <p><a class="wikilink" href="/learning-programming/">Learning programming</a><br>These are notes about learning something new</p>
+    
+  <h3>Current <a href="/stats">progress</a>:</h3>
+  <p><span class="progress" id="progress">Loading...</span> articles read 🤓 </p>
+  <a href="" onclick="clearProgress()">clear progress? 🚨</button>
+</div>
+
+
+
+
+</body>
+<script src="/static/scripts/main.js"></script>
+<script src="/static/scripts/progress.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'DHTACBTDRW',
+    apiKey: 'e5d561894c559b5fb414f30bfc24c5d6',
+    siteId: '0928febf-1302-4002-b548-306e74b39e9b',
+    branch: 'master',
+    autocomplete: {
+      inputSelector: 'input[type=search]',
+    },
+  });
+</script>
+</html>

@@ -9,3 +9,5 @@ This is that thang i be doing tho.
 
 > People who are really serious about software should make their own hardware.  - Alan Kay
 
+
+For my notes while learing new programming frameworks, languages and concepts, see : [[Learning programming]]
