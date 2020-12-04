@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programmer hero's journey.md",
+            "file": "history of complexity theory.md",
             "mode": "source"
           }
         }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.0121879577637
+    "width": 281.0121879577637,
+    "collapsed": true
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programmer hero's journey.md",
+                "file": "history of complexity theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "history of complexity theory.md",
+    "complexity theory.md",
+    "random webdives.md",
+    "Movie title art.md",
+    "some random graphics.md",
+    "ruby on rails.md",
     "programmer hero's journey.md",
     "film theory.md",
     "contemporary film theory.md",
-    "psychoanalytic film theory.md",
-    "suture.md",
-    "hero's journey.md",
-    "screenwritng.md",
-    "fasterthanli.me - programming blog.md",
-    "Untitled.md",
-    "random webdives.md"
+    "psychoanalytic film theory.md"
   ]
 }

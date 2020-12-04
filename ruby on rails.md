@@ -195,3 +195,7 @@ I think the main thing rails did was look around and say
 “Hey! Wait a second! Everyone just keeps remaking the same thing! Why don’t we just make a command for that?”
 Isn’t [[Category - Patterns | pattern recognition]] and [[abstraction]] literally what programmers are supposed be good at? Why is rails the first to recognize the remarkable amount of repitition in web work? Lol.
 My favourite part about rails is that it’s not shy when it comes to code generation. I cannot think of any framework that ouputs as much code *that is supposed to be read* as rails. I wish every tool had `rails generate`. 
+
+## Extra resources: 
+
+ - [The odin project](https://www.theodinproject.com/courses/getting-hired/lessons/building-your-personal-website)

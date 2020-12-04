@@ -12,10 +12,4 @@ Now if you solved SAT (in polynomial time), you also solved a ton of other reall
 
 So world changing, the clay institute of mathematics is giving a 1 million dollar prize to whoever can prove SAT is or is not in P. 
 
-It's still up for grabs. 50 years since Cook published the original paper. 
-
-Fast forward. The space class L and NL. Everyone believes, like P and NP, that they're separate. But a slovak undergraduate student just tries to show that they're the same. 
-
-Bang again.
-
-NL and L *are* the same. 
+It's still up for grabs. 50 years since Cook published the original paper.  
