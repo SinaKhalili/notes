@@ -126,6 +126,10 @@ end
 <p>The base html is in layouts.<br />
 The folders corresspond to the controller names.<br />
 Uses <code>yield</code> as the block to be replaced. <code>yield(:title)</code> is the title, if in the main file you use <code>&lt;% provide(:title, "hello") %&gt;</code>... pretty cool!</p>
+<p>You can use repeated sections of views by using partials. Do use a partial, just name the partial with an underscore at the beginning like <code>_image_partial.html.erb</code>, and in place you call give it an argument like<br />
+<code>&lt;%= render partial: 'profile_pic', locals: {pic_url: @user.profile.pic_url} %&gt;</code> <br />
+Now you can access that local variable in the partial like <br />
+<code>&lt;img src="https://notes.sinakhalili.com/&lt;%= pic_url %&gt;" width="260" height="260" class="profile-pic"&gt;</code></p>
 <h2>Clearance</h2>
 <p>This is a gem for doing user authentication by thoughtbot (who are pretty goated in the rails world). <br />
 Remember to read their Readme and use their generators.<br />
@@ -205,14 +209,25 @@ If you use AddSomethingToModel, the model is chosen automatically.</p>
 6. Run the migration <code>rails db:migrate</code><br />
 7. Use <a href="https://github.com/thoughtbot/clearance">clearance</a> for simple user accounts (follow the readme)<br />
 8. Make sure to use the clearance generators<br />
-9. Make a <code>StaticPages</code> controller for the homepage, and other static pages. Use <code>rails g controller StaticPages home about help</code></p></div>
+9. Make a <code>StaticPages</code> controller for the homepage, and other static pages. Use <code>rails g controller StaticPages home about help</code><br />
+10. Make sure to run <code>heroku rake db:migrate</code> on the database for migrations</p>
+<h1>Rails: Final Verdict ⭐️⭐️⭐️⭐️⭐️</h1>
+<p>Quite possibly the greatest framework ever made. Ruby is a beautiful language, and everything in Rails just works. Great console, great ORM (although <code>allow_nested_attributes</code> was giving me some trouble), and an active community on stackoverflow. <br />
+I think the main thing rails did was look around and say <br />
+“Hey! Wait a second! Everyone just keeps remaking the same thing! Why don’t we just make a command for that?”<br />
+Isn’t <a href="https://notes.sinakhalili.com/category---patterns/" class="wikilink">pattern recognition</a> and <a href="https://notes.sinakhalili.com/abstraction/" class="wikilink">abstraction</a> literally what programmers are supposed be good at? Why is rails the first to recognize the remarkable amount of repitition in web work? Lol.<br />
+My favourite part about rails is that it’s not shy when it comes to code generation. I cannot think of any framework that ouputs as much code <em>that is supposed to be read</em> as rails. I wish every tool had <code>rails generate</code>.</p></div>
   </article>
 </div>
 
 <div class="item right-bar">
   <h2>Pages that link here:</h2>
     
-        <p><a class="wikilink" href="/learning-programming/">Learning programming</a><br>These are notes about learning something new</p>
+        <p><a class="wikilink" href="/secret-santa-rails-website/">secret santa rails website</a><br>[ Category - Programming ][ Category - Side Project ]
+This december I saw I had some extra time to get some coding done, and at the same time learn ruby on rails which I've been wanting to learn for a while</p>
+    
+        <p><a class="wikilink" href="/learning-programming/">Learning programming</a><br>[ Category - Programming ]
+These are notes about learning something new</p>
     
   <h3>Current <a href="/stats">progress</a>:</h3>
   <p><span class="progress" id="progress">Loading...</span> articles read 🤓 </p>

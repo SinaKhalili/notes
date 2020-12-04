@@ -2,6 +2,11 @@ Vscode is the perfect middle ground between [[vim]] and [[emacs]]. I think it ma
 
 Honestly, since it uses the golden [[readline commands]] sometimes it just feels like Emacs. 
 
-### Shortcuts
+## Shortcuts
 `command-P` : pick a file (like `command-O` in Obsidian)
 `command-shift-P` : execute a command (like M-x in emacs)
+
+## Tips
+If *nothing* is selected, what ever action (copy, cut) will affect the whole line. This is better than command-L!
+
+

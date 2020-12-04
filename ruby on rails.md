@@ -96,6 +96,11 @@ The base html is in layouts.
 The folders corresspond to the controller names.
 Uses `yield` as the block to be replaced. `yield(:title)` is the title, if in the main file you use `<% provide(:title, "hello") %>`... pretty cool!
 
+You can use repeated sections of views by using partials. Do use a partial, just name the partial with an underscore at the beginning like `_image_partial.html.erb`, and in place you call give it an argument like
+`<%= render partial: 'profile_pic', locals: {pic_url: @user.profile.pic_url} %> ` 
+Now you can access that local variable in the partial like 
+`<img src="<%= pic_url %>" width="260" height="260" class="profile-pic">`
+
 ## Clearance
 This is a gem for doing user authentication by thoughtbot (who are pretty goated in the rails world). 
 Remember to read their Readme and use their generators.
@@ -181,3 +186,12 @@ Use the rails command line.
 7. Use [clearance](https://github.com/thoughtbot/clearance) for simple user accounts (follow the readme)
 8. Make sure to use the clearance generators
 9. Make a `StaticPages` controller for the homepage, and other static pages. Use `rails g controller StaticPages home about help`
+10. Make sure to run `heroku rake db:migrate` on the database for migrations
+
+
+# Rails: Final Verdict ⭐️⭐️⭐️⭐️⭐️
+Quite possibly the greatest framework ever made. Ruby is a beautiful language, and everything in Rails just works. Great console, great ORM (although `allow_nested_attributes` was giving me some trouble), and an active community on stackoverflow. 
+I think the main thing rails did was look around and say 
+“Hey! Wait a second! Everyone just keeps remaking the same thing! Why don’t we just make a command for that?”
+Isn’t [[Category - Patterns | pattern recognition]] and [[abstraction]] literally what programmers are supposed be good at? Why is rails the first to recognize the remarkable amount of repitition in web work? Lol.
+My favourite part about rails is that it’s not shy when it comes to code generation. I cannot think of any framework that ouputs as much code *that is supposed to be read* as rails. I wish every tool had `rails generate`. 

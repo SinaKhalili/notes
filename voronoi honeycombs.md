@@ -12,4 +12,6 @@ So we have a connection! But wait, there's more, not only is this honeycomb stru
 
 ![Voronoi_growth_euclidean.gif](/static/img/Voronoi_growth_euclidean.gif)
 
-So this curiosity ended up appearing in a bunch of different locations. So we can kind of *feel* there's a Voronoi diagram-ness in the natural structure of things, left to themselves, to uniformly maximize efficiency and strength. There's maybe something about [hexagons](https://www.youtube.com/watch?v=thOifuHs6eY). Maybe you'll notice people spreading out in Voronoi patterns. Maybe you won't. But now here's a pattern. A structure. An underlying abstract shape.
+So this curiosity ended up appearing in a bunch of different locations. So we can kind of *feel* there's a Voronoi diagram-ness in the natural structure of things, left to themselves, to uniformly maximize efficiency and strength. There's maybe something about [hexagons](https://www.youtube.com/watch?v=thOifuHs6eY). 
+
+It feels like a good example of [[abstraction]].

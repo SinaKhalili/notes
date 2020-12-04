@@ -5,6 +5,8 @@ I read a [Carl Sagan](https://en.wikiquote.org/wiki/Carl_Sagan) quote once, whic
 
 > If you keep seeing the same patterns in vastly different circumstances, then you could be witnessing a deeper truth about the universe. 
 
+This quote is also related to [[abstraction]]. 
+
 Here are some of my collected patterns. Most of them I don't understand in all their depth, but this is an ever-evolving wiki. Check the **backlinks** for a full list.
 
 ------

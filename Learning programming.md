@@ -1,4 +1,6 @@
-These are notes about learning something new. The unfortunate fact is I already know some stuff, that *won't* be documented, because I think the knowledge is implicit. 
+*[ [[Category - Programming]] ]*
+
+These are notes about learning something new. Hopefully it'll be easy enough to read, despite probably skipping some stuff because I think the knowledge is implicit. 
 
 This is the unfortunate reality that as our [[Semantic knowledge tree]] gets larger, we forget what other people don't know. 
 
@@ -11,7 +13,7 @@ Anyways,
 [[readline commands]] | [[vim]] | [[emacs]] | [[vscode]]
 
 ### Tools
-[[git]] | [[nix commands]]
+[[git]] | [[nix commands]] | [[zsh]]
 
 ### Services
 [[heroku]] | [[aws]] 

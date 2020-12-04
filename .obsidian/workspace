@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "da24b605c116689d",
+        "id": "c23cc122ff6f2ed3",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ruby on rails.md",
-            "mode": "preview"
+            "file": "programmer hero's journey.md",
+            "mode": "source"
           }
         }
       }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.0121879577637,
-    "collapsed": true
+    "width": 281.0121879577637
   },
   "right": {
     "id": "05293bd2adf09de0",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby on rails.md",
+                "file": "programmer hero's journey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,19 +82,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 147.6395263671875,
+    "width": 364.4532165527344,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "ruby on rails.md",
-    "nix commands.md",
-    "Learning programming.md",
-    "git.md",
-    "vscode.md",
-    "readline commands.md",
-    "Untitled 1.md",
+    "programmer hero's journey.md",
+    "film theory.md",
+    "contemporary film theory.md",
+    "psychoanalytic film theory.md",
+    "suture.md",
+    "hero's journey.md",
+    "screenwritng.md",
+    "fasterthanli.me - programming blog.md",
     "Untitled.md",
-    "Category - Programming.md",
-    "Youtube Hole.md"
+    "random webdives.md"
   ]
 }
