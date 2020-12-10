@@ -7,3 +7,4 @@ This is a collection of unsorted meanderings into the the random world of the we
 | [[fasterthanli.me - programming blog]]      | Dec 2020 |
 | [[some random graphics]]    | Dec 2020 |
 | [[Movie title art]]  | Dec 2020 | 
+| [[Compilers]] | Dec 2020 |

@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "history of complexity theory.md",
-            "mode": "source"
+            "file": "The importance of studying cinema in a global context.md",
+            "mode": "preview"
           }
         }
       }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "history of complexity theory.md",
+                "file": "The importance of studying cinema in a global context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,19 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.4532165527344,
+    "width": 243.73268127441406,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "history of complexity theory.md",
-    "complexity theory.md",
+    "The importance of studying cinema in a global context.md",
+    "Towards a positive Definition of World Cinema.md",
+    "suture.md",
+    "Compilers.md",
     "random webdives.md",
-    "Movie title art.md",
-    "some random graphics.md",
-    "ruby on rails.md",
-    "programmer hero's journey.md",
-    "film theory.md",
-    "contemporary film theory.md",
-    "psychoanalytic film theory.md"
+    "Cognitive map.md",
+    "cinema is centerless and originless.md",
+    "Atomic Note.md",
+    "Film analysis.md",
+    "cinematic waves.md"
   ]
 }

@@ -13,7 +13,7 @@ Anyways,
 [[readline commands]] | [[vim]] | [[emacs]] | [[vscode]]
 
 ### Tools
-[[git]] | [[nix commands]] | [[zsh]]
+[[git]] | [[nix commands]] | [[zsh]] | [[alfred]]
 
 ### Services
 [[heroku]] | [[aws]] 
